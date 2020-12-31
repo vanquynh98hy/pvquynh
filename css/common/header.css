@@ -1,0 +1,68 @@
+﻿.header {
+    float: left;
+    width: calc(100% - 221px);
+    height: 60px;
+    border-bottom: #e5e5e5 1px solid;
+    margin-top:0px;
+}
+.header .floatt{
+    float:left;
+    height:60px;
+    display:flex;
+}
+
+    .header .floatt .text1{
+    margin-left:16px;
+    line-height:60px;
+    line-height:60px;
+    }
+    .header .floatt .icon1 {
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        line-height: 60px;
+        align-self: center;
+    }
+.imageicon {
+    background-image: url('../../content/icon/drop_down_icon.png');
+}
+.header .rightt{
+    float:right;
+    height:60px;
+    width:250px;
+    display:flex;
+    margin-top:0px;
+    margin-right:0px;
+}
+    .header .rightt .icon2 {
+        width: 16px;
+        height: 16px;
+        position:absolute;
+        right:16px;
+        line-height: 60px;
+        align-self: center;
+        background-size: contain;
+        float: right;
+    }
+    .imageicon1 {
+    background-image: url('../../content/icon/option.png');
+    }
+.text2 {
+    position: absolute;
+    right: 48px;
+    float: right;
+    margin-top: 20px;
+}
+.header .rightt .icon3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 166px;
+    line-height: 60px;
+    align-self: center;
+    background-size: contain;
+}
+.imageicon2 {
+    background-image: url('../../content/icon/avatar-default.png');
+}
